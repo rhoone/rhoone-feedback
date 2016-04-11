@@ -20,8 +20,21 @@ namespace rhoone\feedback;
 class Extension extends \rhoone\extension\Extension
 {
 
+    public static function extensionName()
+    {
+        return "Feedback";
+    }
+
     public function search($keywords)
     {
-        
+        return null;
+    }
+
+    public static function getModule()
+    {
+        return [
+            'class' => Module::className(),
+            'id' => 'rhoone-feedback',
+        ];
     }
 }
