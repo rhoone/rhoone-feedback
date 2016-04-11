@@ -1,0 +1,30 @@
+{
+    "name": "rhoone/rhoone-feedback",
+    "description": "Feedback for rho one.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","rho","one","search","feedback"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "rhoone",
+            "email": "opensource@dev.rho.one"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": ">=2.0.7",
+        "rhoone/yii2-rhoone": "dev-master",
+        "vistart/yii2-models": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "rhoone\\feedback\\": ""
+        }
+    },
+    "repositories":[
+        {
+            "type": "git",
+            "url": "https://github.com/rhoone/rhoone-feedback"
+        }
+    ]
+}
