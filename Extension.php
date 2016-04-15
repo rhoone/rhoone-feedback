@@ -20,7 +20,7 @@ namespace rhoone\feedback;
 class Extension extends \rhoone\extension\Extension
 {
 
-    public static function extensionName()
+    public static function name()
     {
         return "Feedback";
     }

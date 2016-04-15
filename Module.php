@@ -21,7 +21,7 @@ class Module extends \yii\base\Module implements \yii\base\BootstrapInterface
 {
 
     public $id = 'rhoone-feedback';
-    public $controllerNamespace = "rhoone\feedback\controllers";
+    public $controllerNamespace = 'rhoone\feedback\controllers';
 
     public function bootstrap($app)
     {
