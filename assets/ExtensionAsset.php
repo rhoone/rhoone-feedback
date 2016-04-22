@@ -12,12 +12,14 @@
 
 namespace rhoone\feedback\assets;
 
+use rhoone\extension\AssetBundle
+
 /**
  * Description of ExtensionAsset
  *
  * @author vistart <i@vistart.name>
  */
-class ExtensionAsset extends \yii\web\AssetBundle
+class ExtensionAsset extends AssetBundle
 {
     //put your code here
 }

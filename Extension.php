@@ -19,6 +19,10 @@ namespace rhoone\feedback;
  */
 class Extension extends \rhoone\extension\Extension
 {
+    public static function id()
+    {
+        return "feedback";
+    }
 
     public static function name()
     {
